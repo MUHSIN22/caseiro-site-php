@@ -70,6 +70,7 @@
   -webkit-box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.2);
           box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.2);
   padding: 1rem;
+  background: #fff;
 }
 
 .seller--page .seller-banner {
@@ -99,6 +100,7 @@
   border-radius: 10px;
   -webkit-box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.2);
           box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
   padding: 1rem;
   position: -webkit-sticky;
   position: sticky;
@@ -164,6 +166,7 @@
   padding: 0.5rem;
   -webkit-box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.2);
           box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
   border-radius: 10px;
 }
 
