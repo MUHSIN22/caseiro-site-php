@@ -90,6 +90,7 @@ $gradient-primary: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
         margin-bottom: 1rem;
         span{
             font-weight: 600;
+            font-size: 0.9rem;
         }
     }
     .filter--checkbox{
@@ -134,7 +135,7 @@ $gradient-primary: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
         color:  #FFCA63;
     }
     .card--title{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .categories-container{
         display: flex;
