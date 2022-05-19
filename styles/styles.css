@@ -36,6 +36,10 @@ button:hover,
   display: flex;
 }
 
+.owl-carousel .owl-stage-outer {
+  overflow: inherit !important;
+}
+
 .owl-carousel .owl-drag .owl-item {
   display: -webkit-box;
   display: -ms-flexbox;

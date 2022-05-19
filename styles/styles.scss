@@ -41,6 +41,9 @@ button,
     .owl-stage{
         display: flex;
     }
+    .owl-stage-outer{
+        overflow: inherit !important;
+    }
     .owl-drag{
         .owl-item{
             display: flex;
