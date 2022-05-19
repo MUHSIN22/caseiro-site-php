@@ -99,7 +99,6 @@ header li {
 header .category {
   color: #0c0c0c;
   text-decoration: none;
-  text-transform: uppercase;
   margin: 0 1rem;
   cursor: pointer;
   padding: 0.5rem;
