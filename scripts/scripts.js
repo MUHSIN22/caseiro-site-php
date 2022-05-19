@@ -8,7 +8,7 @@ let slideInterval;
 let isMouseEntered = false;
 
 $(document).ready(() => {
-  slideInterval = setInterval(autoSlider, 5000);
+  slideInterval = setInterval(autoSlider, 10000);
   productDotClickSlider();
   bannerDragSlider();
   addToWishlist();
