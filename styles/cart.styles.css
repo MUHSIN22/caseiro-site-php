@@ -317,7 +317,8 @@ html {
 }
 
 .dashboard--container .btn-apply-coupon {
-  background: #e55c5b;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C44786), to(#E55C5B));
+  background: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
   border-radius: 6px;
   height: 2.2rem;
   display: -webkit-box;
@@ -348,7 +349,7 @@ html {
 }
 
 .dashboard--container .btn-place-order {
-  background-color: #e55c5b;
+  background-color: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
   padding: 0.5rem 1rem;
   border-radius: 6px;
   border: none;

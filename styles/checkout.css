@@ -183,7 +183,8 @@ html {
 .checkout--container .checkout-main .checkout-input-container .billing-address-input-content .billing-inputs .btn-save {
   margin: 1rem 0 3rem 0;
   margin-bottom: 3rem;
-  background: #0038A5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C44786), to(#E55C5B));
+  background: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
   color: #fff;
   width: 8.5rem;
   height: 2.5rem;
@@ -300,7 +301,8 @@ html {
 }
 
 .checkout--container .checkout-main .total-price-container .total-price-main .total-price-content .coupon-code-container .material-icons-outlined {
-  background: #FF5D50;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C44786), to(#E55C5B));
+  background: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
   color: #fff;
   height: 1.9rem;
   border-radius: 5px;
@@ -342,7 +344,8 @@ html {
 }
 
 .checkout--container .checkout-main .total-price-container .total-price-main .total-price-content .button button {
-  background: #FF5D50;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C44786), to(#E55C5B));
+  background: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
   color: #fff;
   border-radius: 3px;
   border: none;

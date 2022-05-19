@@ -172,7 +172,7 @@ html {
                     .btn-save {
                         margin: 1rem 0 3rem 0;
                         margin-bottom: 3rem;
-                        background: #0038A5;
+                        background: $gradient-primary;
                         color: #fff;
                         width: 8.5rem;
                         height: 2.5rem;
@@ -271,7 +271,6 @@ html {
 
                         .arrow {
                             position: absolute;
-
                             position: absolute;
                             top: 0;
                             right: 0;
@@ -286,7 +285,7 @@ html {
                         }
 
                         .material-icons-outlined {
-                            background: #FF5D50;
+                            background: $gradient-primary;
                             color: #fff;
                             height: 1.9rem;
                             border-radius: 5px;
@@ -307,7 +306,7 @@ html {
                         justify-content: flex-end;
 
                         button {
-                            background: #FF5D50;
+                            background: $gradient-primary;
                             color: #fff;
                             border-radius: 3px;
                             border: none;
