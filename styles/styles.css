@@ -96,6 +96,11 @@ header li {
   height: max-content;
 }
 
+header .button4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#C44786), to(#E55C5B));
+  background: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
+}
+
 header .category {
   color: #0c0c0c;
   text-decoration: none;
