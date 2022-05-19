@@ -1,12 +1,14 @@
 .products-page-wrapper {
-      grid-template-areas: "cover cover" "filter sort" "filter products" "footer footer";
+      grid-template-areas: "crump crump" "cover cover" "filter sort" "filter products" "footer footer";
   -ms-grid-columns: 16rem auto;
       grid-template-columns: 16rem auto;
-  -ms-grid-rows: auto 2rem auto auto;
-      grid-template-rows: auto 2rem auto auto;
+  -ms-grid-rows: auto max-content 2rem auto auto;
+      grid-template-rows: auto -webkit-max-content 2rem auto auto;
+      grid-template-rows: auto max-content 2rem auto auto;
   padding: 0 10%;
   height: auto;
   margin-bottom: 0;
+  padding-top: 8rem;
 }
 
 .products-page-wrapper .landing-filter-button {
@@ -23,7 +25,7 @@
   border-radius: 5px;
   background: #fff;
   font-weight: 500;
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: sort;
   height: -webkit-max-content;
@@ -33,11 +35,10 @@
 }
 
 .products-page-wrapper .landing-cover {
-  -ms-grid-row: 1;
+  -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: cover;
-  margin-top: 7rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,7 +110,7 @@
 .products-page-wrapper .filter-container {
   background: #fff;
   border-radius: 10px;
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: filter;
@@ -144,7 +145,7 @@
 
 .products-page-wrapper .product-listing {
   padding-top: 1rem;
-  -ms-grid-row: 3;
+  -ms-grid-row: 4;
   -ms-grid-column: 2;
   grid-area: products;
   background: #fff;
@@ -274,6 +275,9 @@
 }
 
 @media only screen and (max-width: 922px) {
+  .products-page-wrapper .landing-cover .main-cover .bread-crump {
+    display: none;
+  }
   .products-page-wrapper .landing-cover .main-cover .banner {
     height: 10rem;
   }
@@ -290,6 +294,8 @@
         grid-template-areas: "cover " "sort" "products";
     -ms-grid-columns: auto;
         grid-template-columns: auto;
+    -ms-grid-rows: (auto)[3];
+        grid-template-rows: repeat(3, auto);
   }
   .products-page-wrapper .bread-crump {
     display: none;
