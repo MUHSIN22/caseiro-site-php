@@ -117,13 +117,14 @@
         border-radius: 10px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        // justify-content: space-around;
 
         .product--card{
-            width: calc(100% / 4 - 1.5rem);
+            width: calc(100% / 4 - 2rem);
             display: flex;
             flex-direction: column;
             position: relative;
+            margin: 1rem;
             .add-to-cart{
                 display: flex;
                 justify-content:space-between;
