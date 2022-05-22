@@ -69,7 +69,6 @@ html{
     grid-template-columns: 5fr 2fr;
     grid-gap: 2rem;
     grid-template-areas: 'crump crump''content bill';
-    border-bottom: 1px solid $gray;
 
     .bread-crump{
         grid-area: crump;

@@ -33,7 +33,6 @@ html{
     grid-template-columns: 1fr 5fr;
     grid-gap: 2rem;
     grid-template-areas: 'crump crump''filter content';
-    border-bottom: 1px solid $gray;
     .mobile-filter-button{
         display: none;
         cursor: pointer;

@@ -27,7 +27,6 @@ html {
       grid-template-columns: 1fr 5fr;
   grid-gap: 2rem;
       grid-template-areas: "crump crump" "filter content";
-  border-bottom: 1px solid #8d8d8d;
 }
 
 .order-container .mobile-filter-button {

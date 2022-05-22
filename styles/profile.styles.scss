@@ -33,7 +33,6 @@ html{
     grid-template-columns: 3fr 5fr;
     grid-gap: 2rem;
     grid-template-areas: 'crump crump''navigation content';
-    border-bottom: 1px solid $gray;
 
     .bread-crump{
         grid-area: crump;
