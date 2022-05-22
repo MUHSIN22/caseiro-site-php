@@ -306,6 +306,17 @@ $light-pink:#c44786;
 @media only screen and (max-width: 1000px) {
     .product-display-container{
         .product-display-wrapper{
+            grid-template-areas: 'product'
+                                 'about';
+            grid-template-columns: 1fr;
+            grid-gap: 1rem;
+
+            .bread-crump{
+                display: none;
+            }
+            .product-description-container{
+                margin-left: 0;
+            }
             .display-container{
                 .image-preview{
                     display: none;

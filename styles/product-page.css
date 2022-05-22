@@ -335,6 +335,18 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .product-display-container .product-display-wrapper {
+        grid-template-areas: 'product' 'about';
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  .product-display-container .product-display-wrapper .bread-crump {
+    display: none;
+  }
+  .product-display-container .product-display-wrapper .product-description-container {
+    margin-left: 0;
+  }
   .product-display-container .product-display-wrapper .display-container .image-preview {
     display: none;
   }
