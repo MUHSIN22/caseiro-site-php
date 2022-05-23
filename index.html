@@ -53,10 +53,10 @@
                 <li class="category search-icon-wrapper category-icon" onclick="openSearch()">
                     <i class="material-icons search-icon--link">search</i>
                 </li> 
-                <li class="category category-icon">
+                <li class="category category-icon person-icon">
                     <a href="/profile.html" class="material-icons">person_outline</a>
                 </li>
-                <li class="category category-icon">
+                <li class="category category-icon shopping-icon">
                     <a href="/cart.html" class="material-icons-outlined">shopping_bag</a>
                 </li>
             </ul>
@@ -71,6 +71,16 @@
 		</form>
 
 		<ul class="mobile-menu">
+			<li>
+				<form class="search-container">
+					<div class="search-wrapper">
+						<i class="material-icons search-icon">search</i>
+						<input type="search" name="search" placeholder="Search here..." id="search-input" class="search-input">
+						<button type="submit" class="btn-search">Search</button>
+						<!-- <i class="material-icons-outlined close-icon" onclick="closeSearch()">close</i> -->
+					</div>
+				</form>
+			</li>
 			<li>
 				<a class="menu--item" href="#">Art</a>
 			</li>
@@ -91,6 +101,9 @@
 			</li>
 			<li>
 				<a class="menu--item" href="#">عرب</a>
+			</li>
+			<li>
+				<a class="menu--item" href="#">Login</a>
 			</li>
 		</ul>
     </header>
