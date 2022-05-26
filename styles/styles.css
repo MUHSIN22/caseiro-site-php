@@ -129,6 +129,14 @@ header .category-icon:hover {
   color: #0c0c0c;
 }
 
+header .seller-login-btn:hover {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C44786), to(#E55C5B));
+  background: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
+  -webkit-transform: translateY(-0.2rem);
+          transform: translateY(-0.2rem);
+}
+
 header .hamburger {
   display: none;
 }
@@ -503,7 +511,7 @@ header .mobile-menu__active {
   border-radius: 0 30px 0 0;
   position: relative;
   z-index: 3;
-  width: 12rem;
+  width: 11rem;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -516,7 +524,7 @@ header .mobile-menu__active {
 
 .sellers .card-image--wrapper {
   width: 100%;
-  height: 12rem;
+  height: 11rem;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -575,12 +583,12 @@ header .mobile-menu__active {
 }
 
 .sellers .card-tag i {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fece00;
 }
 
 .sellers .card-tag h6 {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .sellers .card-tag--tag {
@@ -598,7 +606,7 @@ header .mobile-menu__active {
 }
 
 .product-section {
-  padding: 10rem clamp(1rem, 12%, 15rem);
+  padding: 10rem clamp(1rem, 16%, 19rem);
   position: relative;
 }
 
@@ -612,14 +620,14 @@ header .mobile-menu__active {
 }
 
 .product-section .product--title {
-  font-size: 2.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
   text-align: center;
 }
 
 .product-section .product--subtitle {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-top: 1rem;
 }
 
@@ -674,7 +682,7 @@ header .mobile-menu__active {
 
 .product-section .card--image-wrapper {
   width: 100%;
-  height: calc(100vw / 4);
+  height: calc(100vw / 5);
   position: relative;
   border-radius: 10px;
 }
@@ -1549,6 +1557,9 @@ footer .footer--link {
     font-size: 2rem;
     left: 1%;
   }
+  .product-section .card--image-wrapper {
+    height: calc(100vw / 4);
+  }
   .products-listing .product--card {
     width: calc(100% / 4 - 2rem);
   }
@@ -1575,8 +1586,9 @@ footer .footer--link {
     padding: 0 1rem;
   }
   header .category {
-    font-size: 1rem;
-    margin: 0.5rem;
+    font-size: 0.9rem;
+    padding: 5px;
+    margin: 0rem;
   }
   header .search-container {
     padding: 0.5rem 1rem;
