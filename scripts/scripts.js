@@ -48,9 +48,20 @@ const closeOrderStatus = () => {
 const setupImageZoom = () => {
   let image = $(".main-image"),
     zoomLens = $(".img-zoom-lens"),
-    result = $(".image-preview")
+    result = $(".image-preview"),
+    zoomBox = document.querySelector(".zoom-box")
+
+  console.log(zoomBox.offsetWidth,zoomBox.offsetHeight);
   zoomLens.css("display","block")
-  result.css("display","block")
+
+
+
+  result.css({
+    display: "block",
+    width: zoomBox.offsetWidth + "px",
+    height: zoomBox.offsetHeight + "px",
+
+  })
 
 
   if(!isMouseEntered){
@@ -58,13 +69,12 @@ const setupImageZoom = () => {
     isMouseEntered = true;
   }
 
-  cx = result.width() / zoomLens.width();
-  cy = result.height() / zoomLens.height()
-  console.log(image.attr('src'));
+  cx = zoomBox.offsetWidth / zoomLens.width();
+  cy = zoomBox.offsetHeight / zoomLens.height()
 
   result.css({
     backgroundImage: `url(${image.attr('src')})`,
-    backgroundSize : (image.width() * cx) + "px " + (image.height() * cy) + "px"
+    backgroundSize : (image.width() * cx) + "px " + (image.height() * cy) + "px",
   })
   
   // zoomLens.mousemove(moveLens)
