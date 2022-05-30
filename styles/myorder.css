@@ -64,6 +64,11 @@ html {
   opacity: 0.7;
 }
 
+.order-container .bread-crump li a {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
 .order-container .bread-crump li::after {
   content: '>';
   margin: 0 1rem;

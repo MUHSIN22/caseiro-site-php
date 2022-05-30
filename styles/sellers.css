@@ -47,6 +47,11 @@
   opacity: 0.7;
 }
 
+.seller--page .bread-crump li a {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
 .seller--page .bread-crump li::after {
   content: '>';
   margin: 0 1rem;

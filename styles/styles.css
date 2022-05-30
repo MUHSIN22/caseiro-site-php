@@ -1122,6 +1122,11 @@ footer .footer--link {
   opacity: 0.7;
 }
 
+.products-page-wrapper .bread-crump li a {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
 .products-page-wrapper .bread-crump li::after {
   content: '>';
   margin: 0 1rem;

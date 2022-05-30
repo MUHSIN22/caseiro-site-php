@@ -33,6 +33,10 @@ $gradient-primary: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
             display: flex;
             align-items: center;
             opacity: 0.7;
+            a{
+                color: #0c0c0c;
+                text-decoration: none;
+            }
             &::after{
                 content: '>';
                 margin: 0 1rem ;

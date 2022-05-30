@@ -25,6 +25,10 @@ $light-pink:#c44786;
             display: flex;
             align-items: center;
             opacity: 0.7;
+            a{
+                color: #0c0c0c;
+                text-decoration: none;
+            }
             &::after{
                 content: '>';
                 margin: 0 1rem ;
