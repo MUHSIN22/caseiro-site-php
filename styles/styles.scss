@@ -60,6 +60,7 @@ header{
     left: 0;
     z-index: 100;
     width: 100%;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.1);
     .head{
         display: grid;
         grid-template-areas: 'categories logo core';
