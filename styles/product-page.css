@@ -50,7 +50,7 @@
 }
 
 .product-display-container .product-display-wrapper .bread-crump li::after {
-  content: '>';
+
   margin: 0 1rem;
 }
 

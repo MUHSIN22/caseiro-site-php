@@ -65,7 +65,7 @@ html {
 }
 
 .dashboard--container .bread-crump li::after {
-  content: '>';
+  
   margin: 0 1rem;
 }
 

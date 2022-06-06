@@ -317,8 +317,8 @@ header .mobile-menu__active {
   border: none;
   border-radius: 10px;
   font-weight: 600;
-  color: #c44786;
-  background: #fff;
+  color: #fff;
+  background: #c44786;
   padding: 1rem 3rem;
   font-size: 1.2rem;
   width: -webkit-max-content;
@@ -413,7 +413,7 @@ header .mobile-menu__active {
 }
 
 .category-shopping {
-  padding: 0 clamp(1rem, 12%, 15rem);
+  padding: 0 clamp(1rem, 13.5%, 15rem);
   padding-top: 11rem;
 }
 
@@ -494,6 +494,8 @@ header .mobile-menu__active {
 
 .sellers .sellers--card-wrapper {
   padding-top: 5rem;
+  padding: 0 clamp(0, 15%, 8rem);
+ 
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -931,7 +933,7 @@ footer .footer--link {
 
 .modal-wrapper .modal-container {
   width: clamp(20rem, 70%, 60rem);
-  background: #fff;
+background-color: rgb(240, 240, 240);
   display: -ms-grid;
   display: grid;
       grid-template-areas: 'image details';
@@ -1054,9 +1056,18 @@ footer .footer--link {
           align-items: center;
 }
 
+.link-btn{
+ text-decoration: none;
+  color: #0c0c0c;
+
+}
+.pro-section{
+  background-image: url("assets/images/ck.jpg");
+  background-color: #fa0000;
+}
 .modal-wrapper .btn-add-to-cart {
   border: none;
-  background: #0c0c0c;
+  background: #c44786;
   padding: 1rem 3rem;
   border-radius: 10px;
   color: #fff;
@@ -1128,7 +1139,7 @@ footer .footer--link {
 }
 
 .products-page-wrapper .bread-crump li::after {
-  content: '>';
+  
   margin: 0 1rem;
 }
 

@@ -352,7 +352,7 @@ header{
 
 // Category shopping part
 .category-shopping{
-    padding: 0 clamp(1rem,12%,15rem);
+    padding: 0 clamp(1rem,15%,15rem);
     padding-top: 11rem;
 
     .category-shopping--header{
@@ -842,7 +842,7 @@ footer{
 
     .btn-add-to-cart{
         border: none;
-        background: $black;
+        background: #c44786;
         padding: 1rem 3rem;
         border-radius: 10px;
         color: #fff;
@@ -851,6 +851,8 @@ footer{
         font-weight: 600;
         margin: 2rem 0;
     }
+
+    
     .modal-close{
         position: absolute;
         top: 1rem;
