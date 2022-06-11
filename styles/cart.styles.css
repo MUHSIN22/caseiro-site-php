@@ -57,6 +57,7 @@ html {
 .empty-container .btn-empty {
   background: -webkit-gradient(linear, left top, left bottom, from(#C44786), to(#E55C5B));
   background: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
+  
   padding: 0.5rem 1rem;
   border-radius: 5px;
   color: #fff;
